@@ -214,7 +214,7 @@ function Hero() {
           transition={{ duration: 0.8, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          We craft cinematic video edits that elevate your brand and captivate
+          I craft cinematic video edits that elevate your brand and captivate
           your audience.
         </motion.p>
         <motion.div
@@ -233,7 +233,7 @@ function Hero() {
             }
             data-ocid="hero.primary_button"
           >
-            <Play className="w-4 h-4 mr-2" /> VIEW OUR WORK
+            <Play className="w-4 h-4 mr-2" /> VIEW MY WORK
           </Button>
           <Button
             size="lg"
@@ -258,18 +258,18 @@ function WhyChooseUs() {
   const features = [
     {
       icon: <Award className="w-8 h-8" />,
-      title: "Expert Editors",
-      desc: "Our team of award-winning video editors has 10+ years of experience across film, advertising, and social media content.",
+      title: "Expert Editor",
+      desc: "Award-winning freelance editor with 10+ years of experience across film, advertising, and social media content.",
     },
     {
       icon: <Clock className="w-8 h-8" />,
       title: "Fast Turnaround",
-      desc: "We know deadlines matter. Get your video edits back in as little as 12 hours with our priority service.",
+      desc: "I know deadlines matter. Get your video edits back in as little as 12 hours with my priority service.",
     },
     {
       icon: <Star className="w-8 h-8" />,
       title: "Premium Quality",
-      desc: "Cinema-grade precision cuts, pro audio mixing, and motion graphics — we never compromise on quality.",
+      desc: "Cinema-grade precision cuts, pro audio mixing, and motion graphics — I never compromise on quality.",
     },
   ];
 
@@ -278,7 +278,7 @@ function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-6">
         <FadeUp className="text-center mb-16">
           <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-3">
-            Why Choose Us
+            Why Choose Me
           </p>
           <h2 className="font-display font-bold text-4xl md:text-5xl text-foreground gold-underline">
             The EditStudio Difference
@@ -312,13 +312,13 @@ function Portfolio() {
       <div className="max-w-7xl mx-auto px-6">
         <FadeUp className="text-center mb-16">
           <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-3">
-            Our Portfolio
+            My Portfolio
           </p>
           <h2 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-4">
             Featured Work
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            A curated selection of our best video editing projects.
+            A curated selection of my best video editing projects.
           </p>
         </FadeUp>
         <div
@@ -381,7 +381,7 @@ function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <FadeUp className="text-center mb-16">
           <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-3">
-            What We Do
+            What I Do
           </p>
           <h2 className="font-display font-bold text-4xl md:text-5xl text-foreground">
             Editing Services
@@ -649,9 +649,9 @@ function CheckoutSection() {
               Your Content?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Join over 2,000 creators, brands, and agencies who trust
-              EditStudio to transform their raw footage into compelling stories.
-              Our process is simple — upload, we edit, you love it.
+              I&apos;ve worked with creators, brands, and agencies to transform
+              their raw footage into compelling stories. My process is simple —
+              upload, I edit, you love it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -678,7 +678,7 @@ function CheckoutSection() {
             <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4 text-primary" />
               <span>
-                Questions? Call us:{" "}
+                Questions? Call me:{" "}
                 <span className="text-foreground font-medium">
                   +91 86080 35953
                 </span>
@@ -779,8 +779,8 @@ function Footer() {
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Professional video editing services for creators, brands, and
-              agencies worldwide.
+              Freelance video editor crafting cinematic edits for creators,
+              brands, and agencies worldwide.
             </p>
             <div className="flex gap-4 mt-6">
               {socialLinks.map(({ href, label, icon }) => (
